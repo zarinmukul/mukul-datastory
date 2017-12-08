@@ -1,0 +1,39 @@
+/* BASIC STYLES FOR PROTOTYPING */
+section#personal div,
+section#social div, {
+  min-height: 250px;
+  margin-bottom: 15px;
+}
+
+section#personal div {
+  background: lightblue;
+  color: black;
+  font: helvetica;
+}
+
+section#social div {
+  background: rebeccapurple;
+  color: white;
+  font: helvetica;
+}
+
+/* GRID/LAYOUT STYLES */
+
+section#personal {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+section#social {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+@media screen and (min-width: 1080px) {
+  section#personal {
+    grid-template-columns: 400px 1fr;
+    grid-gap: 20px;
+  }
+}
