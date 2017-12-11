@@ -6,6 +6,7 @@ body
 }
 
 /* BASIC STYLES FOR PROTOTYPING */
+
 section div
 {
   min-height: 250px;
@@ -18,12 +19,14 @@ section div
   color: black;
   font: helvetica;
 }
+
 #social div 
 {
   background: rebeccapurple;
   color: white;
   font: helvetica;
 }
+
 #resources div 
 {
   background: pink;
@@ -42,6 +45,7 @@ section div
 }
 
 /* GRID/LAYOUT STYLES */
+
 section
 {
   display: grid;
