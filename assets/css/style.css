@@ -1,10 +1,16 @@
+/* ============
+GENERAL STYLES
+============= */
+
 body {
   margin: 20px;
   font: 80% helvetica;
   text-align: block;
 }
 
-/* BASIC STYLES FOR PROTOTYPING */
+/* =========================
+BASIC STYLES FOR PROTOTYPING 
+========================== */
 
 section div {
   min-height: 250px;
@@ -37,7 +43,10 @@ section div {
 	width: 100%;
 }
 
-/* Fix iframe height issue */
+/* ========================
+FIXING IFRAME HEIGHT ISSUES
+=========================== */
+
 div.video-container {
   position: relative;
   width: 100%;
@@ -51,7 +60,9 @@ div.video-container iframe {
   height: 80%;
 }
 
-/* GRID/LAYOUT STYLES */
+/* ===============
+GRID/LAYOUT STYLES 
+================= */
 
 section {
   display: grid;
@@ -60,7 +71,7 @@ section {
 }
 
 @media screen and (min-width: 1080px) {
-  #personal {
+  #collection {
     grid-template-columns: 400px 1fr;
   }
 }
