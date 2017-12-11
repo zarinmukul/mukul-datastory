@@ -3,9 +3,8 @@ GENERAL STYLES
 ============= */
 
 body {
-  margin: 20px;
-  font: 80% helvetica;
-  text-align: block;
+  font-size: 20px;
+  font: helvetica;
 }
 
 p {
