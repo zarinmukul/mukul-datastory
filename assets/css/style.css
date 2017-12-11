@@ -1,31 +1,37 @@
+body {
+  margin: 20px;
+  font: 80% helvetica;
+  text-align: block;
+}
+
 /* BASIC STYLES FOR PROTOTYPING */
 section#personal div,
-section#social div, {
+section#social div,
+section#resources div {
   min-height: 250px;
   margin-bottom: 15px;
 }
-
 section#personal div {
   background: lightblue;
   color: black;
   font: helvetica;
 }
-
 section#social div {
   background: rebeccapurple;
   color: white;
   font: helvetica;
 }
+section#resources div {
+  background: pink;
+  color: black;
+  font: helvetica;
+}
 
 /* GRID/LAYOUT STYLES */
 
-section#personal {
-  display: grid;
-  grid-gap: 15px;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-}
-
-section#social {
+section#personal,
+section#social,
+section#resources {
   display: grid;
   grid-gap: 15px;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -34,6 +40,5 @@ section#social {
 @media screen and (min-width: 1080px) {
   section#personal {
     grid-template-columns: 400px 1fr;
-    grid-gap: 20px;
   }
 }
