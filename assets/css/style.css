@@ -8,6 +8,10 @@ body {
   text-align: block;
 }
 
+p {
+  margin: 15px;
+  }
+
 /* =========================
 BASIC STYLES FOR PROTOTYPING 
 ========================== */
@@ -35,6 +39,11 @@ section div {
   font: helvetica;
 }
 
+
+/* ========================
+FIXING MEDIA ISSUES
+=========================== */
+
 #collection img {
 	width: 100%;
 }
@@ -42,10 +51,6 @@ section div {
 #visual img {
 	width: 100%;
 }
-
-/* ========================
-FIXING IFRAME HEIGHT ISSUES
-=========================== */
 
 div.video-container {
   position: relative;
