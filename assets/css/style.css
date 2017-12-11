@@ -16,11 +16,21 @@ section#personal div {
   color: black;
   font: helvetica;
 }
+
+#personal img {
+  height: 150px; width 0px;
+}
+
 section#social div {
   background: rebeccapurple;
   color: white;
   font: helvetica;
 }
+
+#social img {
+  height: 300px; width 0px;
+}
+
 section#resources div {
   background: pink;
   color: black;
