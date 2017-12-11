@@ -71,9 +71,7 @@ section {
 }
 
 @media screen and (min-width: 1080px) {
-  #collection,
-  #visual,
-  #explained {
+  section {
     grid-template-columns: 400px 1fr;
   }
 }
