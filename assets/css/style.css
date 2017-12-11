@@ -1,5 +1,4 @@
-body 
-{
+body {
   margin: 20px;
   font: 80% helvetica;
   text-align: block;
@@ -7,40 +6,34 @@ body
 
 /* BASIC STYLES FOR PROTOTYPING */
 
-section div
-{
+section div {
   min-height: 250px;
   margin-bottom: 15px;
 }
 
-#personal div 
-{
+#collection div {
   background: lightblue;
   color: black;
   font: helvetica;
 }
 
-#social div 
-{
+#visual div {
   background: rebeccapurple;
   color: white;
   font: helvetica;
 }
 
-#resources div 
-{
+#explained div {
   background: pink;
   color: black;
   font: helvetica;
 }
 
-#personal img 
-{
+#collection img {
 	width: 100%;
 }
 
-#social img
-{
+#visual img {
 	width: 100%;
 }
 
@@ -49,6 +42,7 @@ div.video-container {
   position: relative;
   width: 100%;
 }
+
 div.video-container iframe {
   position: absolute;
   top: 0; left: 0;
@@ -59,17 +53,14 @@ div.video-container iframe {
 
 /* GRID/LAYOUT STYLES */
 
-section
-{
+section {
   display: grid;
   grid-gap: 15px;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
-@media screen and (min-width: 1080px) 
-{
-  #personal 
-  {
+@media screen and (min-width: 1080px) {
+  #personal {
     grid-template-columns: 400px 1fr;
   }
 }
