@@ -83,6 +83,6 @@ section {
   #collection,
   #visual,
   #explained {
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 60% 40%;
   }
 }
