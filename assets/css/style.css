@@ -7,7 +7,9 @@ body {
 }
 
 p {
-  margin: 15px;
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: justify;
   }
 
 /* =========================
@@ -17,6 +19,10 @@ BASIC STYLES FOR PROTOTYPING
 section div {
   min-height: 250px;
   margin-bottom: 15px;
+}
+
+section h1 {
+	margin-left: 16px;	
 }
 
 #collection div {
@@ -77,6 +83,6 @@ section {
   #collection,
   #visual,
   #explained {
-    grid-template-columns: 75% 25%;
+    grid-template-columns: 70% 30%;
   }
 }
