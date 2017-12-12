@@ -77,6 +77,6 @@ section {
   #collection,
   #visual,
   #explained {
-    grid-template-columns: 400px 1fr;
+    grid-template-columns: 75% 25%;
   }
 }
