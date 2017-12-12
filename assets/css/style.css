@@ -43,6 +43,9 @@ section h1 {
   font: helvetica;
 }
 
+.center {
+  text-align: center;
+  }
 
 /* ========================
 FIXING MEDIA ISSUES
