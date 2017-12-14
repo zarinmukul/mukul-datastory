@@ -27,19 +27,19 @@ section h1 {
 
 #collection div {
   background: #0A6187;
-  color: black;
+  color: white;
   font: helvetica;
 }
 
 #visual div {
-  background: rebeccapurple;
+  background: #F25944;
   color: white;
   font: helvetica;
 }
 
 #explained div {
-  background: pink;
-  color: black;
+  background: #243752;
+  color: white;
   font: helvetica;
 }
 
